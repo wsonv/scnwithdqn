@@ -113,7 +113,7 @@ def main(game):
 	# Hyper Parameters
 	epsilon = 1
 	epsilon_l_bound = 0.01
-	epsilon_steps = (epsilon - epsilon_l_bound)/1000
+	epsilon_steps = (epsilon - epsilon_l_bound)/100000
 	epochs = 10000
 	game_over = False
 	env = gym.make(game)
@@ -121,8 +121,8 @@ def main(game):
 	batch_size = 32
 	grid_size = 84
 	num_state_frames = 4
-	replay_memory_size = 50000
-	target_update_steps = 500
+	replay_memory_size = 100000
+	target_update_steps = 5000
 
 
 
