@@ -9,11 +9,11 @@ SCN is applied when building CNN.
 Hyper Parameters are randomly chosen. Thus the learning might take a while.
 Because of lack of equipments, the code is tested only for whether it is working without errors.
 
-The code is tested on Atari Alien-v0 and Breakout-v0.
+The code is tested on Atari Alien-v0, Breakout-v0 and, MsPacman-v0.
 
-Used environments provided by gym
+Used environments provided by gym.
 
-Assumed all inputs are images but not RAM
+Assumed all inputs are images but not RAM.
 
 Since the purpose of it is to apply SCN, for the simplicity, assumed the life per every round of game to be one.
 It makes code not optimized, but enough to be trained and tested since agent must perform as good as possible for one life.
@@ -22,6 +22,7 @@ It makes code not optimized, but enough to be trained and tested since agent mus
 Dependencies:
 
 Tensorflow, Gym, Numpy
+
 
 
 Python version : 
