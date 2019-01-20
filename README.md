@@ -19,18 +19,18 @@ Since the purpose of it is to apply SCN, for the simplicity, assumed the life pe
 It makes code not optimized, but enough to be trained and tested since agent must perform as good as possible for one life.
 
 
-Dependencies:
+**Dependencies**:
 
 Tensorflow, Gym, Numpy
 
 
 
-Python version : 
+**Python version** : 
 
 3.6
 
 
-Execution method :
+**Execution method** :
 
 Clone this repository and type below on command line
 
@@ -39,7 +39,7 @@ python SCN_with_DQN.py "Name of the game you want to test"
 ex) python SCN_with_DQN.py "Alien-v0"
 
 
-References :
+**References** :
 
 https://sites.google.com/view/deep-rl-bootcamp/lectures
 
