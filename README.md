@@ -3,6 +3,8 @@ Structured Control Nets for Deep Reinforcement Learning
 
 Tried to apply concepts of SCN which is introduced in https://arxiv.org/abs/1802.08311 with Deep Q Network.
 
+Code is simple with one file. Commented on the code for detailed explanation.
+
 Hyper Parameters are randomly chosen. Thus the learning might take a while.
 Because of lack of equipment, only tested whether the code is working.
 
