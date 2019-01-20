@@ -4,7 +4,7 @@ Structured Control Nets for Deep Reinforcement Learning
 Tried to apply concepts of SCN which is introduced in https://arxiv.org/abs/1802.08311 with Deep Q Network.
 
 Code is simple with one file. Commented on the code for detailed explanation.
-SCN is applied when building CNN
+SCN is applied when building CNN.
 
 Hyper Parameters are randomly chosen. Thus the learning might take a while.
 Because of lack of equipments, the code is tested only for whether it is working without errors.
@@ -22,6 +22,20 @@ It makes code not optimized, but enough to be trained and tested since agent mus
 Dependencies:
 
 Tensorflow, Gym, Numpy
+
+
+Python version : 
+
+3.6
+
+
+Execution method :
+
+Clone this repository and type below on command line
+
+python SCN_with_DQN.py "Name of the game you want to test"
+
+ex) python SCN_with_DQN.py "Alien-v0"
 
 
 References :
