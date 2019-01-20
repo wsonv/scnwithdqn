@@ -21,7 +21,7 @@ Since the purpose of it is to apply SCN, for the simplicity, assumed the life pe
 It makes code not optimized, but enough to be trained and tested since agent must perform as good as possible for one life.
 
 
-### **Dependencies**:
+### **Dependencies** :
 
 Tensorflow, Gym, Numpy
 
