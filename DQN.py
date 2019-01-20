@@ -10,12 +10,13 @@ class DQN():
 		self.grid_size = grid_size
 		self.inputdim = [grid_size,grid_size,num_state_frames]
 		self.num_state_frames = num_state_frames
-		self.CNN()
+		self.build_network()
 
-	def CNN(self):
+	def build_network(self):
 		with tf.variable_scope(self.name):
 			
-			# Non linear part. Normal CNN
+			# Non linear part
+			# Normal CNN
 
 			self.X = tf.placeholder(tf.float32, shape = [None] + self.inputdim, name='input')
 			self.Y = tf.placeholder(tf.float32, shape = [None], name='output')
@@ -47,7 +48,8 @@ class DQN():
 			y3_flat = tf.reshape(y3, [-1, size3 * size3 * 64])
 			y4 = tf.nn.relu(tf.matmul(y3_flat, F1) + b4)
 
-			# Linear part.
+			# Linear part
+			# Set bias as 0 for simplicity
 			flat_input = tf.reshape(self.X, [-1,self.grid_size * self.grid_size * self.num_state_frames])
 			K = tf.Variable(tf.random_uniform([self.grid_size * self.grid_size * self.num_state_frames, self.num_act]))
 
