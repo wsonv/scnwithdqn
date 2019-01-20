@@ -1,4 +1,4 @@
-# scnwithdqn
+# SCN with DQN
 Structured Control Nets for Deep Reinforcement Learning
 
 Tried to apply concepts of SCN which is introduced in https://arxiv.org/abs/1802.08311 with Deep Q Network.
