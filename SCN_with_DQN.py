@@ -2,6 +2,7 @@ import tensorflow as tf
 import numpy as np
 import gym
 import random
+import argparse
 
 class DQN():
 	def __init__(self, sess, name,num_act, grid_size,num_state_frames):
@@ -234,3 +235,9 @@ def main(game):
 
 		scores.append(cur_epoch_reward)
 		print("epoch : {}, step : {}, reward : {}, avg_reward : {}".format(cur_epoch, step, cur_epoch_reward, np.average([scores])))
+
+if __name__ == "__main__" :
+	parser = argparse.ArgumentParser()
+	parser.add_argument("game")
+	args = parser.parse_args()
+	main(args.game)
