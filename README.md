@@ -1,2 +1,35 @@
-# scnwithdqn
+# SCN with DQN
 Structured Control Nets for Deep Reinforcement Learning
+
+Tried to apply concepts of SCN which is introduced in https://arxiv.org/abs/1802.08311 with Deep Q Network.
+
+Code is simple with one file. Commented on the code for detailed explanation.
+SCN is applied when building CNN
+
+Hyper Parameters are randomly chosen. Thus the learning might take a while.
+Because of lack of equipments, the code is tested only for whether it is working without errors.
+
+The code is tested on Atari Alien-v0 and Breakout-v0.
+
+Used environments provided by gym
+
+Assumed all inputs are images but not RAM
+
+Since the purpose of it is to apply SCN, for the simplicity, assumed the life per every round of game to be one.
+It makes code not optimized, but enough to be trained and tested since agent must perform as good as possible for one life.
+
+
+Dependencies:
+
+Tensorflow, Gym, Numpy
+
+
+References :
+
+https://sites.google.com/view/deep-rl-bootcamp/lectures
+
+https://medium.com/@mariosrouji/structured-control-nets-for-deep-reinforcement-learning-tutorial-icml-published-long-talk-paper-2ff99a73c8b
+
+https://gist.github.com/jcwleo/fffc40f69b7f14d9e2a2b8765a79b579
+
+https://tomaxent.com/2017/07/09/Using-Tensorflow-and-Deep-Q-Network-Double-DQN-to-Play-Breakout/
