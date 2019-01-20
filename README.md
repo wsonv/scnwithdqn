@@ -1,7 +1,7 @@
 # SCN with DQN
 Structured Control Nets for Deep Reinforcement Learning
 
-Tried to apply concepts of SCN which is introduced in https://arxiv.org/abs/1802.08311 with Deep Q Network.
+Tried to apply concepts of SCN which is introduced on https://arxiv.org/abs/1802.08311 with Deep Q Network.
 
 Code is simple with one file. Commented on the code for detailed explanation.
 SCN is applied when building CNN.
