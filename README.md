@@ -34,7 +34,7 @@ Tensorflow, Gym, Numpy
 
 ### **Execution method** :
 
-Clone this repository and type below on command line
+Clone this repository and type below on terminal
 
 python SCN_with_DQN.py "Name of the game you want to test"
 
